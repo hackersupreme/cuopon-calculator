@@ -29,7 +29,10 @@ http://cuoponcalculator.hackersupreme.com/
 This assumes you have the following installed:
   - node.js 
   - node package manager (npm)
-  - Get both here: https://nodejs.org/
+
+Get both here: https://nodejs.org/
+
+###### Instructions
 
 1. Create file directory on your local device
 2. Download files to that directory
