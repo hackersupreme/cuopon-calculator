@@ -96,7 +96,6 @@ Controls the state of the app as well as contains the definitions for functions 
 ```
 this.state = {
   products: [],
-  id: "",
   name: "",
   goal: 0,
   price: 0,
@@ -113,12 +112,30 @@ this.state = {
 - `generateCuopons()`
 - `generateCSV()`
 
-###### View Components
-- Input Form (for products)
-- Input Form for discount percentages
-- Cuopon List
+###### Display
 
-**InputForm (for products) || InputForm.js**
+```
+render() {
+
+  ...
+  
+  return(
+    <React.Fragment>
+    <header>...</header>
+    <main>
+      <InputForm />
+      <ProductList />
+      <CuoponList>
+        <DiscountForm />
+      </CuoponList>
+    </main>
+    <footer>...</footer>
+    </React.Fragment>
+  )
+}
+```
+
+**Input Form || InputForm.js**
 
 Contains the form html for updating the variables `name`, `goal`, `price`, and `cost` in the state. 
 
@@ -126,7 +143,12 @@ The state updated through an arrow function that is passed down as a prop.
 
 i.e.
 ```
+<InputForm
+
 setName={(e) => this.setState({name: e.target.value})}
+...
+
+/>
 ```
 
 On submit, the `addProduct(e)` function fires. The `addProduct(e)` function takes the state variables `name`, `goal`, `price`, and `cost` and makes an object out of them. That object is added to the `products` array in the state.
