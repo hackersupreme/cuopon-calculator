@@ -48,6 +48,7 @@ Get both here: https://nodejs.org/
 
 1. Create file directory on your local device
 2. Download files to that directory
+  - note: PNG images are for this document, not needed for the project
 3. Using a command line software, enter the directory
 ```
 cd directory-name
@@ -64,5 +65,7 @@ npm start
 
 ## Documentation
 
+
+###### 
 The App component controls the state as well as contains the definitions for functions that affect the state. It passes those down to the following view components: IndexForm, 
 
