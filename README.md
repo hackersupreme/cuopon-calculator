@@ -72,17 +72,40 @@ The magic happens in the src folder.
 
 ```
 public
-**src**
+src
   L App.js
-  L CuoponComponent.js
-  L DiscountForm.js
-  L InputForm.js
   L index.css
   L index.js
+  L Components
+    L CuoponComponent.js
+    L DiscountForm.js
+    L InputForm.js
 .gitignore
 package-lock.json
 package.json
 ```
 
-The App component controls the state as well as contains the definitions for functions that affect the state. It passes those down to the following view components: IndexForm, 
+**App component || App.js**
+
+Controls the state of the app as well as contains the definitions for functions that affect the state. It passes those down to the view components located in the Components folder.
+
+###### State
+
+```
+this.state = {
+  products: [],
+  id: "",
+  name: "",
+  goal: 0,
+  price: 0,
+  cost: 0,
+  discounts: [0.1, 0.2, 0.5]
+}
+```
+
+**InputForm || InputForm.js**
+
+Contains the form html for updating
+
+
 
