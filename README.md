@@ -48,7 +48,9 @@ Get both here: https://nodejs.org/
 
 1. Create file directory on your local device
 2. Download files to that directory
+
 _note: PNG images are for this document, not needed for the project_
+
 3. Using a command line software, enter the directory
 ```
 cd directory-name
@@ -65,10 +67,10 @@ npm start
 
 ## Documentation
 
+The magic happens in the src folder.
+
 
 ###### Folder Structure
-
-The magic happens in the src folder.
 
 ```
 public
@@ -104,15 +106,31 @@ this.state = {
 ```
 
 Functions:
-- addProduct(e)
-- removeProduct(index)
-- updateDiscounts(e)
-- generateProducts()
-- generateCuopons()
+- `addProduct(e)`
+- `removeProduct(index)`
+- `updateDiscounts(e)`
+- `generateProducts()`
+- `generateCuopons()`
+- `generateCSV()`
 
-**InputForm || InputForm.js**
+There are four main view components:
+- Input Form (for products)
+- Product List
+- Input Form for discount percentages
+- Cuopon List
 
-Contains the form html for updating the variables `name`, `goal`, `price`, and `cost` in the state.  
+**InputForm (for products) || InputForm.js**
+
+Contains the form html for updating the variables `name`, `goal`, `price`, and `cost` in the state. 
+
+The state updated through an arrow function that is passed down as a prop. 
+
+i.e.
+```
+setName={(e) => this.setState({name: e.target.value})}
+```
+
+On submit, the `addProduct(e)` function fires. The `addProduct(e)` function takes the state variables `name`, `goal`, `price`, and `cost` and makes an object out of them. That object is added to the `products` array in the state.
 
 
 
