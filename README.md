@@ -175,10 +175,10 @@ http://hackersupreme.com
 
 ###### Resources
 
-[react.js](https://reactjs.org/)
-[create-react-app](https://reactjs.org/docs/create-a-new-react-app.html)
-[react-csv](https://www.npmjs.com/package/react-csv)
-[node.js](https://nodejs.org/en/)
+- [react.js](https://reactjs.org/)
+- [create-react-app](https://reactjs.org/docs/create-a-new-react-app.html)
+- [react-csv](https://www.npmjs.com/package/react-csv)
+- [node.js](https://nodejs.org/en/)
 
 
 
