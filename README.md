@@ -1,15 +1,15 @@
-# cuopon-calculator
-## React.js Single Page App 
+# Cuopon Calculator || React.js Single Page App 
+
 
 
 This is a single page app that creates cuopon data to be downloaded in a csv. It's built using React.js and react-csv (https://www.npmjs.com/package/react-csv). 
 
 
 An input form takes in the following data of a product you are trying to sell a cuopon for:
-  -Name
-  -Goal Amount
-  -Price of Product
-  -Cost of Product
+  - Name
+  - Goal Amount
+  - Price of Product
+  - Cost of Product
 
 It then calculates cuopons based on 3 different percentages and lists how many of them you would need to sell to meet your goal amount.
 
@@ -18,15 +18,16 @@ You can add as many products as you would want. You can adjust the three discoun
 After adding all your products and adjusting the discount percentages, you can export the data in a csv.
 
 
-###### Live Example
+
+## Live Example
 
 http://cuoponcalculator.hackersupreme.com/
 
 
-###### Installation
+## Installation
 
 This assumes you have the following installed:
-  -node.js & node package manager (npm)
+  - node.js & node package manager (npm)
 
 1. Create file directory on your local device
 2. Download files to that directory
@@ -44,7 +45,7 @@ npm start
 ```
 
 
-###### Documentation
+## Documentation
 
 The App component controls the state as well as contains the definitions for functions that affect the state. It passes those down to the following view components: IndexForm, 
 
