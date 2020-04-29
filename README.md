@@ -105,7 +105,7 @@ this.state = {
 }
 ```
 
-Functions:
+###### Functions:
 - `addProduct(e)`
 - `removeProduct(index)`
 - `updateDiscounts(e)`
@@ -113,9 +113,8 @@ Functions:
 - `generateCuopons()`
 - `generateCSV()`
 
-There are four main view components:
+###### View Components
 - Input Form (for products)
-- Product List
 - Input Form for discount percentages
 - Cuopon List
 
