@@ -4,6 +4,8 @@
 
 This is a single page app that creates cuopon data to be downloaded in a csv. It's built using [React.js](https://reactjs.org/) and [react-csv](https://www.npmjs.com/package/react-csv). 
 
+![App Screenshot](inputform.png)
+Format: ![Alt Text](url)
 
 An input form takes in the following data of a product you are trying to sell a cuopon for:
   - Name
