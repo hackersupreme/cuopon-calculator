@@ -4,7 +4,7 @@
 
 This is a single page app that creates cuopon data to be downloaded in a csv. It's built using [React.js](https://reactjs.org/) and [react-csv](https://www.npmjs.com/package/react-csv). 
 
-![App Screenshot](./inputform.PNG)
+
 
 An input form takes in the following data of a product you are trying to sell a cuopon for:
   - Name
@@ -12,9 +12,15 @@ An input form takes in the following data of a product you are trying to sell a 
   - Price of Product
   - Cost of Product
 
+![Input Form Screenshot](./inputform.PNG)
+
 It then calculates cuopons based on 3 different percentages and lists how many of them you would need to sell to meet your goal amount.
 
+![Cuopon List Screenshot](./cuopon.PNG)
+
 You can add as many products as you would want. You can adjust the three discount percentages to see which would work best.
+
+![Product List Screenshot](./productlist.PNG)
 
 After adding all your products and adjusting the discount percentages, you can export the data in a csv.
 
