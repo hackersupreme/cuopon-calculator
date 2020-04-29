@@ -81,6 +81,7 @@ src
   L index.js
   L Components
     L CuoponComponent.js
+    L ProductList.js
     L DiscountForm.js
     L InputForm.js
 .gitignore
@@ -157,7 +158,7 @@ On submit, the `addProduct(e)` function fires. The `addProduct(e)` function take
 
 Recieves the `products` array from the app's state and creates a table out of them. Includes links to the id of the cuopon associated with it as well as a button to remove the product from the `products` array.
 
-**Cuopon List**
+**Cuopon List || CuoponComponent.js**
 
 This section contains a list of cuopons that correspond to the products added through the input form and displayed in the product list.
 
