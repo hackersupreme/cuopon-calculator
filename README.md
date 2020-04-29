@@ -1,10 +1,13 @@
 # Cuopon Calculator || React.js Single Page App 
 
+- Overview
+- Live Example
+- Installation
+- Documentation
 
+## Overview
 
 This is a single page app that creates cuopon data to be downloaded in a csv. It's built using [React.js](https://reactjs.org/) and [react-csv](https://www.npmjs.com/package/react-csv). 
-
-
 
 An input form takes in the following data of a product you are trying to sell a cuopon for:
   - Name
