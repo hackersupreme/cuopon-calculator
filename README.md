@@ -158,5 +158,11 @@ On submit, the `addProduct(e)` function fires. The `addProduct(e)` function take
 
 Recieves the `products` array from the app's state and creates a table out of them. Includes links to the id of the cuopon associated with it as well as a button to remove the product from the `products` array.
 
+**Cuopon List**
+
+This section contains a list of cuopons that correspond to the products added through the input form and displayed in the product list.
+
+It also contains a form to update the discount percentages in the state and a button that downloads the csv file.
+
 
 
