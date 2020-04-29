@@ -1,5 +1,7 @@
 # Cuopon Calculator || React.js Single Page App 
 
+Contents:
+
 - Overview
 - Live Example
 - Installation
