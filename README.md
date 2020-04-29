@@ -103,9 +103,16 @@ this.state = {
 }
 ```
 
+Functions:
+- addProduct(e)
+- removeProduct(index)
+- updateDiscounts(e)
+- generateProducts()
+- generateCuopons()
+
 **InputForm || InputForm.js**
 
-Contains the form html for updating
+Contains the form html for updating the variables `name`, `goal`, `price`, and `cost` in the state.  
 
 
 
