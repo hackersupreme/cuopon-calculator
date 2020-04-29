@@ -105,7 +105,7 @@ this.state = {
 }
 ```
 
-###### Functions:
+###### Functions
 - `addProduct(e)`
 - `removeProduct(index)`
 - `updateDiscounts(e)`
