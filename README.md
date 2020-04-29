@@ -4,6 +4,7 @@
 
 This is a single page app that creates cuopon data to be downloaded in a csv. It's built using React.js and react-csv (https://www.npmjs.com/package/react-csv). 
 
+
 An input form takes in the following data of a product you are trying to sell a cuopon for:
   -Name
   -Goal Amount
@@ -24,10 +25,20 @@ live url: http://cuoponcalculator.hackersupreme.com/
 This assumes you have the following installed:
   -node.js & node package manager (npm)
 
-1. Download files to a local directory
-2. Using a command line software, enter the directory
-3. Use npm install to get the node modules
-4. Use npm start to start the server
+1. Create file directory on your local device
+2. Download files to that directory
+3. Using a command line software, enter the directory
+```
+cd directory-name
+```
+4. Use npm install to get the node modules
+```
+npm install
+```
+5. Use npm start to start the server
+```
+npm start
+```
 
 
 ###### Documentation
