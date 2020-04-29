@@ -17,7 +17,10 @@ You can add as many products as you would want. You can adjust the three discoun
 
 After adding all your products and adjusting the discount percentages, you can export the data in a csv.
 
-live url: http://cuoponcalculator.hackersupreme.com/
+
+###### Live Example
+
+http://cuoponcalculator.hackersupreme.com/
 
 
 ###### Installation
