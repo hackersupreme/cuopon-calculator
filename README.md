@@ -127,6 +127,7 @@ render() {
       <ProductList />
       <CuoponList>
         <DiscountForm />
+        CSV Button
       </CuoponList>
     </main>
     <footer>...</footer>
@@ -139,7 +140,7 @@ render() {
 
 Contains the form html for updating the variables `name`, `goal`, `price`, and `cost` in the state. 
 
-The state updated through an arrow function that is passed down as a prop. 
+The state is updated through an arrow function that is passed down as a prop. 
 
 i.e.
 ```
@@ -152,6 +153,10 @@ setName={(e) => this.setState({name: e.target.value})}
 ```
 
 On submit, the `addProduct(e)` function fires. The `addProduct(e)` function takes the state variables `name`, `goal`, `price`, and `cost` and makes an object out of them. That object is added to the `products` array in the state.
+
+**Product List || ProductList.js**
+
+Recieves the `products` array from the app's state and creates a table out of them. Includes links to the id of the cuopon associated with it as well as a button to remove the product from the `products` array.
 
 
 
