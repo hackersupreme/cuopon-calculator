@@ -1,16 +1,11 @@
 import React from 'react';
-import { useSpring, animated } from 'react-spring';
+import DiscountForm from './DiscountForm.js'
 
-const CuoponComponent = (props) => {
+const Cuopon = (props) => {
 
   let product = props.product;
 
   let discounts = props.discounts;
-
-  const spring_props = useSpring({
-    to: {opacity: 1},
-    from: {opacity: 0}
-  })
 
   let cuopons = discounts.map((discount, i) => {
 
@@ -25,7 +20,7 @@ const CuoponComponent = (props) => {
     profit_margin = profit_margin.toFixed(2);
 
     return (
-      <section style={spring_props}>
+      <section>
 
         <h4>{percent_off}</h4>
 
@@ -39,7 +34,7 @@ const CuoponComponent = (props) => {
 
   return(
 
-        <React.Fragment>
+        <article id={product.id}>
 
           <section>
           <h3>{product.id}</h3>
@@ -65,9 +60,46 @@ const CuoponComponent = (props) => {
 
 
 
-        </React.Fragment>
+        </article>
 
     )
+
 }
 
-export default CuoponComponent;
+const CuoponList = (props) => {
+
+  let products = props.products.reverse();
+
+  let cuopons = products.map((product, i) => {
+
+    return(
+      <React.Fragment>
+      <Cuopon product={product} key={i} discounts={props.discounts} />
+      <button class="removal-button" onClick={() => props.removeProduct(product.id)}>Remove</button>
+      </React.Fragment>
+      )
+
+  })
+
+  return(
+    <section class="cuopons">
+
+      <h2>Cuopons</h2>
+
+      <DiscountForm 
+        discounts={props.discounts} 
+        setDiscount1={(e) => props.updateDiscounts(e)} 
+        setDiscount2={(e) => props.updateDiscounts(e)} 
+        setDiscount3={(e) => props.updateDiscounts(e)} 
+      />
+
+      {props.csv()}
+
+      {cuopons}
+
+    </section>
+    )
+
+}
+
+export default CuoponList;

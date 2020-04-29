@@ -17,6 +17,21 @@ html, body, h1, h2, h3, h4, h5, h6, p, a, button, input {
 	text-align: right;
 }
 
+.action-button {
+
+}
+
+.removal-button {
+	padding: 8px;
+	border-radius: 4px;
+	border: none;
+	background: #FFC02B;
+}
+
+section.cuopons > .removal-button {
+	margin: 0px 32px;
+}
+
 header, footer {
 	display: flex;
 	justify-content: space-between;
