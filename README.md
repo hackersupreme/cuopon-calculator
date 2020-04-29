@@ -48,7 +48,7 @@ Get both here: https://nodejs.org/
 
 1. Create file directory on your local device
 2. Download files to that directory
-  - note: PNG images are for this document, not needed for the project
+  - _note: PNG images are for this document, not needed for the project_
 3. Using a command line software, enter the directory
 ```
 cd directory-name
