@@ -17,7 +17,7 @@ An input form takes in the following data of a product you are trying to sell a 
   - Price of Product
   - Cost of Product
 
-![Input Form Screenshot](./inputform.PNG)
+![Input Form Screenshot](./input.PNG)
 
 It then calculates cuopons based on 3 different percentages and lists how many of them you would need to sell to meet your goal amount.
 
