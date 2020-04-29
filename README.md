@@ -1,7 +1,7 @@
 # cuopon-calculator
-*** Cuopon Calculator React.js App ***
+## Cuopon Calculator React.js App 
 
-Installation
+###### Installation
 
 This is a single page app that creates cuopon data to be downloaded in a csv. It's built using React.js and react-csv (https://www.npmjs.com/package/react-csv). 
 
