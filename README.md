@@ -6,6 +6,7 @@ Contents:
 - Live Example
 - Installation
 - Documentation
+- Resources / Contact Info
 
 ## Overview
 
@@ -108,8 +109,6 @@ this.state = {
 - `addProduct(e)`
 - `removeProduct(index)`
 - `updateDiscounts(e)`
-- `generateProducts()`
-- `generateCuopons()`
 - `generateCSV()`
 
 ###### Display
@@ -163,6 +162,23 @@ Recieves the `products` array from the app's state and creates a table out of th
 This section contains a list of cuopons that correspond to the products added through the input form and displayed in the product list.
 
 It also contains a form to update the discount percentages in the state and a button that downloads the csv file.
+
+## Resources / Contact Info
+
+###### Email
+
+jeffgsch@gmail.com
+
+###### Website
+
+http://hackersupreme.com
+
+###### Resources
+
+[react.js](https://reactjs.org/)
+[create-react-app](https://reactjs.org/docs/create-a-new-react-app.html)
+[react-csv](https://www.npmjs.com/package/react-csv)
+[node.js](https://nodejs.org/en/)
 
 
 
