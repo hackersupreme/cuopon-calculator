@@ -1,9 +1,10 @@
 # Cuopon Calculator || React.js Single Page App 
 
+*Note: I updated this project and integrated it with redux. Check it out [here](https://github.com/hackersupreme/redux-cuopon-calculator)*
+
 Contents:
 
 - Overview
-- Live Example
 - Installation
 - Documentation
 - Resources / Contact Info
@@ -29,13 +30,6 @@ You can add as many products as you would want. You can adjust the three discoun
 ![Product List Screenshot](./productlist.PNG)
 
 After adding all your products and adjusting the discount percentages, you can export the data in a csv.
-
-
-
-## Live Example
-
-http://cuoponcalculator.hackersupreme.com/
-
 
 ## Installation
 
